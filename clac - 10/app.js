@@ -18,7 +18,8 @@ let calc=()=>{
         res.innerHTML = num1.value / num2.value;
     });
     plus.addEventListener('click',()=>{
-        res.innerHTML = num1.value + num2.value;
+        let x = number(num1.value + num2.value);
+        res.innerHTML = x.value;
     })
     minus.addEventListener('click',()=>{
         res.innerHTML = num1.value - num2.value;
